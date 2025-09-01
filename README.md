@@ -31,73 +31,24 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 
 ---
 
+
+## 📚 All Projects
+
+- [Mini Redis](./redis.md)
+- [Mini Web Framework](./Ignitia.md)
+- [Mini Kafka](./kafka.md)
+- [Mini P2P File Sharing](./p2p.md)
+- [Mini Search Engine](./search.md)
+- [Mini Compiler / Interpreter](./toy-lang.md)
+- [Mini Docker](./docker.md)
+- [Mini Git](./git.md)
+- [Mini TensorFlow](./tensorflow.md)
+
+***
+
 ## 🔥 Featured Projects
 
-### 1. **Ignitia Web Framework** - Production-Ready Rust Web Framework
-*A blazing fast, lightweight web framework with advanced routing, middleware, and built-in security*
-
-**Key Features:**
-- 🚀 Built on Hyper & Tokio for maximum performance
-- 🛡️ Complete authentication & authorization system
-- 🍪 Advanced cookie management with security features
-- 🔧 Composable middleware architecture
-- 📚 8+ comprehensive examples
-
-**Tech Stack:** `Rust` `Tokio` `Hyper` `Async/Await` `HTTP/TCP`
-
-**Demo:** *Coming soon on YouTube*
-
----
-
-### 2. **Mini TensorFlow** - Deep Learning Library in Rust
-*Comprehensive deep learning framework with SIMD optimization and neural network support*
-
-**Key Features:**
-- 🧠 Dense, Convolutional, and Activation layers
-- ⚡ SIMD vectorization with 4x performance boost
-- 📊 Dynamic computation graphs
-- 💾 Model serialization in JSON/binary formats
-- 📈 CSV data loading and batch processing
-
-**Tech Stack:** `Rust` `SIMD` `Rayon` `Linear Algebra` `Machine Learning`
-
-**Demo:** *Coming soon on YouTube*
-
----
-
-### 3. **Mini Docker** - Container Runtime in Rust
-*Lightweight container runtime with Linux namespaces, cgroups, and networking*
-
-**Key Features:**
-- 🐳 Complete container lifecycle management
-- 🔐 Process isolation with Linux namespaces
-- 💾 Resource limits using cgroups v2
-- 🌐 Container networking with bridge creation
-- 📊 Persistent state tracking
-
-**Tech Stack:** `Rust` `Linux Namespaces` `Cgroups` `Container Technology` `Tokio`
-
-**Demo:** *Coming soon on YouTube*
-
----
-
-### 4. **Mini Kafka** - Distributed Message Queue
-*High-performance Kafka-inspired pub/sub system with persistent storage*
-
-**Key Features:**
-- 🚀 347ns consumption time (sub-microsecond performance)
-- 📊 Message partitioning and consumer groups
-- 💾 Durable disk-based persistence
-- 🔄 Auto-commit offset management
-- 📈 24-453 KiB/s throughput
-
-**Tech Stack:** `Rust` `TCP Protocol` `Distributed Systems` `Tokio` `Serialization`
-
-**Demo:** *Coming soon on YouTube*
-
----
-
-### 5. **Mini Redis** - In-Memory Database
+### 1. **Mini Redis** - In-Memory Database
 *Redis-compatible key-value store with TCP server and persistence*
 
 **Key Features:**
@@ -111,41 +62,41 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 
 **Demo:** *Coming soon on YouTube*
 
----
+***
 
-### 6. **Mini Git** - Version Control System
-*Complete Git implementation with object store, branching, and merging*
+### 2. **Mini Web Framework** - Production-Ready Rust Web Framework
+*A blazing fast, lightweight web framework with advanced routing, middleware, and built-in security*
 
 **Key Features:**
-- 🗂️ SHA-1 content addressing
-- 🌿 Full branching and three-way merging
-- 📦 Zlib-compressed object storage
-- 🔄 Local clone/push/pull workflows
-- 💾 Stash functionality
+- 🚀 Built on Hyper & Tokio for maximum performance
+- 🛡️ Complete authentication & authorization system
+- 🍪 Advanced cookie management with security features
+- 🔧 Composable middleware architecture
+- 📚 8+ comprehensive examples
 
-**Tech Stack:** `Rust` `SHA-1` `Zlib` `Git Internals` `Version Control`
+**Tech Stack:** `Rust` `Tokio` `Hyper` `Async/Await` `HTTP/TCP`
 
 **Demo:** *Coming soon on YouTube*
 
----
+***
 
-### 7. **Mini Search Engine** - Full-Text Search System
-*Complete search engine with web crawling, indexing, and TF-IDF ranking*
+### 3. **Mini Kafka** - Distributed Message Queue
+*High-performance Kafka-inspired pub/sub system with persistent storage*
 
 **Key Features:**
-- 🕷️ Polite web crawling with domain restrictions
-- 📊 TF-IDF relevance scoring
-- 🌍 REST API and beautiful web frontend
-- 💾 Sled embedded database storage
-- ⚡ ~1000 documents/second indexing
+- 🚀 347ns consumption time (sub-microsecond performance)
+- 📊 Message partitioning and consumer groups
+- 💾 Durable disk-based persistence
+- 🔄 Auto-commit offset management
+- 📈 24-453 KiB/s throughput
 
-**Tech Stack:** `Rust` `Web Crawling` `TF-IDF` `HTTP Server` `Information Retrieval`
+**Tech Stack:** `Rust` `TCP Protocol` `Distributed Systems` `Tokio` `Serialization`
 
 **Demo:** *Coming soon on YouTube*
 
----
+***
 
-### 8. **Mini P2P Network** - BitTorrent-like File Sharing
+### 4. **Mini P2P File Sharing** - BitTorrent-like File Sharing
 *Distributed peer-to-peer file sharing with automatic discovery*
 
 **Key Features:**
@@ -159,9 +110,25 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 
 **Demo:** *Coming soon on YouTube*
 
----
+***
 
-### 9. **Toy Language Interpreter** - Custom Programming Language
+### 5. **Mini Search Engine** - Full-Text Search System
+*Complete search engine with web crawling, indexing, and TF-IDF ranking*
+
+**Key Features:**
+- 🕷️ Polite web crawling with domain restrictions
+- 📊 TF-IDF relevance scoring
+- 🌍 REST API and beautiful web frontend
+- 💾 Sled embedded database storage
+- ⚡ ~1000 documents/second indexing
+
+**Tech Stack:** `Rust` `Web Crawling` `TF-IDF` `HTTP Server` `Information Retrieval`
+
+**Demo:** *Coming soon on YouTube*
+
+***
+
+### 6. **Mini Compiler / Interpreter** - Custom Programming Language
 *Complete compiler with lexer, parser, AST, and tree-walking interpreter*
 
 **Key Features:**
@@ -172,6 +139,54 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 - 🎯 REPL mode and file execution
 
 **Tech Stack:** `Rust` `Compiler Design` `Parsing` `Language Implementation` `AST`
+
+**Demo:** *Coming soon on YouTube*
+
+***
+
+### 7. **Mini Docker** - Container Runtime in Rust
+*Lightweight container runtime with Linux namespaces, cgroups, and networking*
+
+**Key Features:**
+- 🐳 Complete container lifecycle management
+- 🔐 Process isolation with Linux namespaces
+- 💾 Resource limits using cgroups v2
+- 🌐 Container networking with bridge creation
+- 📊 Persistent state tracking
+
+**Tech Stack:** `Rust` `Linux Namespaces` `Cgroups` `Container Technology` `Tokio`
+
+**Demo:** *Coming soon on YouTube*
+
+***
+
+### 8. **Mini Git** - Version Control System
+*Complete Git implementation with object store, branching, and merging*
+
+**Key Features:**
+- 🗂️ SHA-1 content addressing
+- 🌿 Full branching and three-way merging
+- 📦 Zlib-compressed object storage
+- 🔄 Local clone/push/pull workflows
+- 💾 Stash functionality
+
+**Tech Stack:** `Rust` `SHA-1` `Zlib` `Git Internals` `Version Control`
+
+**Demo:** *Coming soon on YouTube*
+
+***
+
+### 9. **Mini TensorFlow** - Deep Learning Library in Rust
+*Comprehensive deep learning framework with SIMD optimization and neural network support*
+
+**Key Features:**
+- 🧠 Dense, Convolutional, and Activation layers
+- ⚡ SIMD vectorization with 4x performance boost
+- 📊 Dynamic computation graphs
+- 💾 Model serialization in JSON/binary formats
+- 📈 CSV data loading and batch processing
+
+**Tech Stack:** `Rust` `SIMD` `Rayon` `Linear Algebra` `Machine Learning`
 
 **Demo:** *Coming soon on YouTube*
 
