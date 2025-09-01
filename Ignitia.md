@@ -7,7 +7,7 @@
 *Embodies the spirit of **Aarambh** (new beginnings) - the spark that ignites your web development journey*
 
 **Built with ❤️ by [Aarambh Dev Hub](https://youtube.com/@aarambhdevhub)**
-
+</div>
 Ignitia embodies the spirit of **Aarambh** (new beginnings) - the spark that ignites your web development journey. Built for developers who demand speed, simplicity, and power.
 
 - **🚀 Blazing Fast**: Built on Hyper and Tokio for maximum async performance
