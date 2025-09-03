@@ -292,6 +292,6 @@ Available for:
 
 *Where every line of code sparks new possibilities.*
 
-**© 2024 Aarambh Dev Hub - Systems Programming with ❤️**
+**© 2025 Aarambh Dev Hub - Systems Programming with ❤️**
 
 </div>
