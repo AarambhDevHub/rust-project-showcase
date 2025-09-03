@@ -43,6 +43,7 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 - [Mini Docker](./docker.md)
 - [Mini Git](./git.md)
 - [Mini TensorFlow](./tensorflow.md)
+- [Mini Database](./mini-database.md)
 
 ***
 
@@ -190,6 +191,22 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 
 **Demo:** *Coming soon on YouTube*
 
+***
+
+### 10. **Mini Database** - High-Performance Graph Database ✨ *NEW*
+*Ultra-fast graph database with SQL-like joins, embedded & network modes, and advanced caching*
+
+**Key Features:**
+- 🏎️ 138,794 ops/sec node retrieval with LRU caching
+- 🔗 SQL-like JOIN operations (INNER, LEFT, RIGHT, FULL OUTER)
+- 🌐 Dual architecture: embedded & network modes (TCP port 5432)
+- 📊 Graph algorithms: BFS, DFS, shortest path, connected components
+- ⚡ 22,222 ops/sec join performance with fluent query builder
+
+**Tech Stack:** `Rust` `Graph Database` `TCP Server` `LRU Cache` `SQL Joins` `Memory Mapping`
+
+**Demo:** *Coming soon on YouTube*
+
 ---
 
 ## 📊 Portfolio Statistics
@@ -199,12 +216,12 @@ Welcome to my portfolio! I'm a **Rust Systems Programmer** passionate about buil
 | **Category** | **Projects** | **Technologies** |
 |--------------|--------------|------------------|
 | **Web Frameworks** | 1 | Hyper, Tokio, HTTP |
-| **Databases** | 2 | Redis Protocol, Sled, Persistence |
+| **Databases** | 3 | Redis Protocol, Graph DB, Sled, Persistence |
 | **Distributed Systems** | 3 | P2P, Message Queues, Containers |
 | **Machine Learning** | 1 | Neural Networks, SIMD |
 | **System Tools** | 3 | Git, Search Engine, Compilers |
 
-**Total Projects:** 9 | **Primary Language:** Rust 🦀 | **Focus:** Systems Programming
+**Total Projects:** 10 | **Primary Language:** Rust 🦀 | **Focus:** Systems Programming
 
 </div>
 
@@ -276,3 +293,5 @@ Available for:
 *Where every line of code sparks new possibilities.*
 
 **© 2024 Aarambh Dev Hub - Systems Programming with ❤️**
+
+</div>

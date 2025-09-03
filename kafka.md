@@ -567,8 +567,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Community
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/mini-kafka/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/mini-kafka/discussions)
+- **Issues**: [GitHub Issues](https://github.com/AarambhDevHub/mini-kafka/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AarambhDevHub/mini-kafka/discussions)
 - **Documentation**: Run examples to see the system in action
 - **Performance**: Use `storage_management_demo` for performance analysis
 
