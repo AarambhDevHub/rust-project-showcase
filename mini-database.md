@@ -663,30 +663,38 @@ RUST_LOG=debug cargo test
 
 ---
 
-## 📈 **Roadmap**
+## 🚀 Roadmap
 
-### **Planned Features**
-- [ ] **ACID Transactions** with rollback support
-- [ ] **Distributed clustering** with replication
-- [ ] **Schema validation** and constraints
-- [ ] **Query optimization** with cost-based planner
-- [ ] **Backup/restore** functionality
-- [ ] **REST API** endpoints
-- [ ] **Grafana metrics** integration
-- [ ] **Multi-language clients** (Python, JavaScript)
+We are building Mini Database step-by-step to become a full-featured, production-quality graph database. Here is the planned progression:
 
-### **✨ Join Enhancements** *NEXT*
-- [ ] **Window functions** (ROW_NUMBER, RANK, LAG/LEAD)
-- [ ] **Recursive CTEs** for hierarchical queries
-- [ ] **Parallel join execution** for large datasets
-- [ ] **Join optimization** with statistics-based planning
-- [ ] **Materialized join views** for frequently accessed combinations
+### Phase 1: Core Stability (Completed / In Progress)
+- Write-Ahead Logging (WAL) for crash recovery
+- ACID Transactions with commit/rollback
+- Custom Query Language parser and execution
+- Basic query optimization
 
-### **Performance Improvements**
-- [ ] **Parallel query execution** with Rayon
-- [ ] **Memory pooling** for allocations
-- [ ] **Custom allocators** for specific workloads
-- [ ] **SIMD optimizations** for graph operations
+### Phase 2: Production Features (Upcoming)
+- Authentication and Role-Based Authorization
+- Security layer integrated into network server
+- Metrics collection using Prometheus support
+- Monitoring HTTP endpoint for real-time stats
+- (Optional) Admin dashboard with query console and metrics
+
+### Phase 3: Scalability & Distribution (Mid Term)
+- Cluster management with Raft consensus for high availability
+- Data sharding and replication across nodes
+- Inter-node communication and cluster network protocol
+- Distributed query execution and result aggregation
+- Graph algorithms library (PageRank, Community detection, etc.)
+- Temporal graph support with snapshotting and versioning
+
+### Phase 4: Ecosystem & Adoption (Long Term)
+- Multi-language drivers: Rust, Python, JavaScript, and more
+- ORM/ODM support with trait and macros
+- GraphQL API server integration for flexible querying
+- Connectors for Apache Kafka and Apache Spark for streaming and analytics
+- Comprehensive documentation, examples, tutorials
+- CI/CD pipelines, community engagement, and open source growth
 
 ---
 
